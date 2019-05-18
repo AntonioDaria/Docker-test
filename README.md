@@ -1,5 +1,5 @@
 # Running a rails app on docker container
-This is is a simple rails app with the intent to show how we can use Docker for development.This example will show the development of a Rails application without ever installing Rails on our machine. This app also features docker-compose a tool, we use for defining and running multi-container Docker applications. With Compose,we use a YAML file to configure the application’s services. Then, with a single command, we can create and start all the services from the configuration.
+This is a simple rails app with the intent to show how we can use Docker for development.This example will show the development of a Rails application without ever installing Rails on our machine. This app also features docker-compose a tool we use, for defining and running multi-container Docker applications. With Compose, we use a YAML file to configure the application’s services. Then, with a single command, we can create and start all the services from the configuration.
 
 
 ### Technologies used
