@@ -1,24 +1,28 @@
-# README
+# Running a rails app on docker container
+This is is a simple rails app with the intent to show how we can use Docker for development.This example will show the development of a Rails application without ever installing Rails on our machine. This app also features docker-compose a tool, we use for defining and running multi-container Docker applications. With Compose,we use a YAML file to configure the application’s services. Then, with a single command, we can create and start all the services from the configuration.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+### Technologies used
 
-* Ruby version
+- Ruby on Rails
+- Docker
+- Docker-Compose.yml
+- Postgresql
 
-* System dependencies
+### How to run the application
 
-* Configuration
+- Clone the repository to your machine:
 
-* Database creation
+  `git clone <repository path>`
 
-* Database initialization
+- Navigate to your repository directory:
 
-* How to run the test suite
+  `cd <project directory>`
+  
+- Run `docker_compose up` to start the containers
 
-* Services (job queues, cache servers, search engines, etc.)
+- Run `docker_compose ps` to see the running containers
 
-* Deployment instructions
+- Run `app rake db:setup` to start the database
 
-* ...
+- launch the app at `.localhost:3000`
